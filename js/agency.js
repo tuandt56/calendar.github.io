@@ -14,7 +14,18 @@
       }
     }
   });
+  //Hide key information
+  $(document).ready(function () {
+    // $('.key').hide();
+  });
 
+  //Submit button
+$('.form').on('submit', function() {
+  if ($('#email').val() != null) {
+    $('.key').show();
+    $('.form').hide();
+  }
+  //return false;
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');

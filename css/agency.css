@@ -59,7 +59,9 @@ section {
 .btn-xl {
   font-size: 18px;
   padding: 20px 40px; }
-
+  .form {
+      padding-top: 0px;
+      padding-bottom: 120px;}
 .btn-primary {
   background-color: #20a286;
   border-color: #20a286; }
@@ -165,7 +167,7 @@ header.masthead {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 100px;
     padding-bottom: 200px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 30px;
