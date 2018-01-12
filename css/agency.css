@@ -58,7 +58,10 @@ section {
 
 .btn-xl {
   font-size: 18px;
-  padding: 20px 40px; }
+  padding: 20px 40px;
+    background: #20a286;
+    border-color: #20a286;
+  background-color: #117761}
   .form {
       padding-top: 0px;
       padding-bottom: 120px;}
@@ -69,8 +72,7 @@ section {
     background-color: #117761 !important;
     border-color: #333 !important;
     color: white; }
-  .btn-primary:active, .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
+
 
 ::-moz-selection {
   background: #20a286;
@@ -157,7 +159,7 @@ header.masthead {
       font-size: 22px;
       line-height: 22px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Merriweather', Helvetica, Arial, sans-serif; }
+      font-family:  'lato','roboto' Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 700;
